@@ -1,0 +1,14 @@
+[
+  {
+    "type": "bitbucket",
+    "identifier": "account/repository",
+    "auth": "username/password",           // username and password to access BitBucket
+    "action": "touch:myproject"            // "myproject" is the name of the file to be touch'd in the elements/ folder when some activity is retrieved
+  },
+  {
+    "type": "github",
+    "identifier": "account/repository",    // e.g. madbob/website
+    "action": "touch:myotherproject"
+  }
+]
+
