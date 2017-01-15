@@ -111,7 +111,8 @@ foreach($actions as $action) {
 
 foreach($to_disable as $path => $status)
 	if($status == true)
-		rename($path, $path . '.disabled');
+		if(file_exists($path))
+			rename($path, $path . '.disabled');
 
 file_put_contents('cache.json', json_encode($cache));
 
