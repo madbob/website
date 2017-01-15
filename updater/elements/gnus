@@ -1,0 +1,12 @@
+{
+	"type": "open",
+	"name": "GNUS",
+	"image": "gnus.png",
+	"description": "Proxy RSS / GNU Social",
+	"links": [
+		{
+			"url": "http://gnus.madbob.org/",
+			"name": "Sito"
+		}
+	]
+}

@@ -1,0 +1,6 @@
+{
+    "require": {
+        "gentle/bitbucket-api": "^0.8.1",
+        "knplabs/github-api": "~1.4"
+    }
+}

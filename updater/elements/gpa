@@ -1,0 +1,12 @@
+{
+	"type": "hack",
+	"name": "GTT Pirate API",
+	"image": "gpa.png",
+	"description": "API per gli autobus di Torino",
+	"links": [
+		{
+			"url": "http://gpa.madbob.org/",
+			"name": "Sito"
+		}
+	]
+}

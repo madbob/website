@@ -1,0 +1,12 @@
+{
+	"type": "open",
+	"name": "VoiceHub",
+	"image": "voicehub.png",
+	"description": "Widget web per pubblicare issues su GitHub",
+	"links": [
+		{
+			"url": "http://vh.madbob.org/",
+			"name": "Sito"
+		}
+	]
+}

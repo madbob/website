@@ -1,0 +1,16 @@
+{
+	"type": "open",
+	"name": "Off Topic",
+	"image": "offtopic.png",
+	"description": "Widget web generico per mailing lists",
+	"links": [
+		{
+			"url": "http://ot.madbob.org/",
+			"name": "Sito"
+		},
+		{
+			"url": "http://blog.madbob.org/off-topic/",
+			"name": "Incipit"
+		}
+	]
+}

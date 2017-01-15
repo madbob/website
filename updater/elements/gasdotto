@@ -1,0 +1,12 @@
+{
+	"type": "open",
+	"name": "GASdotto",
+	"image": "gasdotto.png",
+	"description": "Gestionale web per i Gruppi di Acquisto Solidale",
+	"links": [
+		{
+			"url": "http://gasdotto.net/",
+			"name": "Sito"
+		}
+	]
+}

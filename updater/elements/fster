@@ -1,0 +1,12 @@
+{
+	"type": "open",
+	"name": "FSter",
+	"image": "fster.png",
+	"description": "Filesystem dinamico semantico",
+	"links": [
+		{
+			"url": "http://github.com/madbob/FSter/",
+			"name": "Repository"
+		}
+	]
+}

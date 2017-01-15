@@ -536,6 +536,26 @@ button {
   /* add a box-shadow while scrolling over the background image */
   box-shadow: 0 -5px 30px rgba(0, 0, 0, 0.2);
 }
+.cd-project-info .open {
+	border: 1px solid #0F0;
+}
+.cd-project-info .hack {
+	border: 1px solid #00F;
+}
+.cd-project-info .work {
+	border: 1px solid #F00;
+}
+
+.cd-project-info span.open {
+	padding: 3px;
+}
+.cd-project-info span.hack {
+	padding: 3px;
+}
+.cd-project-info span.work {
+	padding: 3px;
+}
+
 @media only screen and (min-width: 1170px) {
   .cd-project-info .content-wrapper {
     padding: 4em 0;
@@ -737,10 +757,10 @@ button {
 	-webkit-transition: color 0.3s;
 	-moz-transition: color 0.3s;
 	transition: color 0.3s;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
-        position: relative;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	position: relative;
 	display: inline-block;
 	outline: none;
 	text-decoration: none;
@@ -780,7 +800,7 @@ button {
 #links ul li a:hover,
 #links ul li a:focus {
 	color: #000;
-        outline: none;
+	outline: none;
 }
 
 #links ul li a:hover::before,
@@ -794,49 +814,49 @@ button {
 }
 
 /*
-        From
-        http://codepen.io/ianfarb/pen/ikeAf
+	From
+	http://codepen.io/ianfarb/pen/ikeAf
 */
 
 .project {
-        width:100%;
-        height:300px;
-        border-bottom:2px solid #fff;
-        border-right:2px solid #fff;
-        margin:5% auto 0 auto;
-        background-size:cover;
-        border-radius:5px;
-        overflow:hidden;
-        background-position: center;
+	width:100%;
+	height:300px;
+	border-bottom:2px solid #fff;
+	border-right:2px solid #fff;
+	margin:5% auto 0 auto;
+	background-size:cover;
+	border-radius:5px;
+	overflow:hidden;
+	background-position: center;
 }
 
 .overlay {
-        background:rgba(0,0,0,.85);
-        text-align:center;
-        padding:30px;
-        opacity:0;
-        -webkit-transition: opacity .25s ease;
-        -moz-transition: opacity .25s ease;
-        height: 100%;
+	background:rgba(0,0,0,.85);
+	text-align:center;
+	padding:30px;
+	opacity:0;
+	-webkit-transition: opacity .25s ease;
+	-moz-transition: opacity .25s ease;
+	height: 100%;
 }
 
 @media only screen and (max-width: 991px) {
-        .overlay {
-                opacity:1;
-        }
+	.overlay {
+		opacity:1;
+	}
 }
 
 .project:hover .overlay {
-        opacity:1;
+	opacity:1;
 }
 
 .project .overlay .desc {
-        font-weight:900;
-        color:rgba(255,255,255,.85);
+	font-weight:900;
+	color:rgba(255,255,255,.85);
 }
 
 .project a {
-        color: #FFF;
+	color: #FFF;
 }
 
 /*
@@ -940,3 +960,4 @@ button {
 	transform: rotateX(0deg);
 	opacity: 1;
 }
+

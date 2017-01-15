@@ -1,0 +1,12 @@
+{
+	"type": "hack",
+	"name": "Car2Track",
+	"image": "car2track.png",
+	"description": "Visualizzazione delle auto Car2Go",
+	"links": [
+		{
+			"url": "http://c2t.madbob.org/",
+			"name": "Sito"
+		}
+	]
+}
