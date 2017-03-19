@@ -73,6 +73,21 @@ foreach($sources as $source) {
 			$latest = $commits[0]['commit']['committer']['date'];
 			$time = strtotime($latest);
 			break;
+
+		case 'gitlab':
+			list($account, $repository) = explode('/', $source->identifier);
+			if(strpos($repository, ':') !== false)
+				list($repository, $branch) = explode(':', $repository);
+			else
+				$branch = 'master';
+
+			$client = new \Gitlab\Client('https://gitlab.com/api/v3/');
+			$client->authenticate($source->auth, \Gitlab\Client::AUTH_URL_TOKEN);
+			$commits = $client->api('repo')->commits($source->identifier);
+
+			$latest = $commits[0]['created_at'];
+			$time = strtotime($latest);
+			break;
 	}
 
 	$a = match_action($source, $time, $cache);
