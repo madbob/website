@@ -88,6 +88,29 @@ foreach($sources as $source) {
 			$latest = $commits[0]['created_at'];
 			$time = strtotime($latest);
 			break;
+
+		case 'cron':
+			$node = null;
+
+			foreach($cache as $c) {
+				if($c->type == $source->type && $c->identifier == $source->identifier) {
+					$node = $c;
+					break;
+				}
+			}
+
+			if($node == null) {
+				$time = time();
+			}
+			else {
+				$interval = $source->interval;
+				$offset = strtotime('+' . $interval, $node->latest);
+				$now = time();
+				if ($offset <= $now)
+					$time = $now;
+			}
+
+			break;
 	}
 
 	$a = match_action($source, $time, $cache);
