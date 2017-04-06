@@ -1,0 +1,12 @@
+{
+	"type": "work",
+	"name": "Emberware",
+	"image": "emberware.png",
+	"description": "Agenzia di consulenza",
+	"links": [
+		{
+			"url": "http://www.emberware.it/",
+			"name": "Sito"
+		}
+	]
+}
