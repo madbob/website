@@ -1,5 +1,5 @@
 {
-	"type": "open",
+	"type": "hack",
 	"name": "SocialMap",
 	"image": "socialmap.png",
 	"description": "Visualizzazione della rete GNU Social",
@@ -7,6 +7,10 @@
 		{
 			"url": "http://sm.madbob.org/",
 			"name": "Sito"
+		},
+		{
+			"url": "http://blog.madbob.org/social-crawling/",
+			"name": "Incipit"
 		}
 	]
 }
