@@ -1,0 +1,12 @@
+{
+	"type": "open",
+	"name": "SocialMap",
+	"image": "socialmap.png",
+	"description": "Visualizzazione della rete GNU Social",
+	"links": [
+		{
+			"url": "http://sm.madbob.org/",
+			"name": "Sito"
+		}
+	]
+}
