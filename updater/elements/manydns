@@ -1,0 +1,12 @@
+{
+	"type": "open",
+	"name": "ManyDNS",
+	"image": "manydns.png",
+	"description": "Astrazione PHP per i provider di DNS dinamico",
+	"links": [
+		{
+			"url": "http://github.com/madbob/manydns/",
+			"name": "Repository"
+		}
+	]
+}
