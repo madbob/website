@@ -1,0 +1,12 @@
+{
+	"type": "hack",
+	"name": "PHP",
+	"image": "php.png",
+	"description": "I miei paccheti PHP",
+	"links": [
+		{
+			"url": "https://packagist.org/users/madbob/",
+			"name": "Elenco"
+		}
+	]
+}
