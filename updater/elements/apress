@@ -1,0 +1,12 @@
+{
+	"type": "open",
+	"name": "Apress",
+	"image": "apress.png",
+	"description": "Twitter scheduler",
+	"links": [
+		{
+			"url": "http://github.com/madbob/apress/",
+			"name": "Repository"
+		}
+	]
+}
