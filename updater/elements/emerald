@@ -1,0 +1,12 @@
+{
+	"type": "work",
+	"name": "Emerald",
+	"image": "emerald.png",
+	"description": "Agenzia di consulenza",
+	"links": [
+		{
+			"url": "http://www.emeraldcommunication.com/",
+			"name": "Sito"
+		}
+	]
+}

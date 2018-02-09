@@ -1,0 +1,12 @@
+{
+	"type": "open",
+	"name": "Postegg",
+	"image": "postegg.png",
+	"description": "Gateway HTTP POST",
+	"links": [
+		{
+			"url": "http://postegg.madbob.org/",
+			"name": "Sito"
+		}
+	]
+}
