@@ -1,0 +1,12 @@
+{
+	"type": "work",
+	"name": "Maieutical Labs",
+	"image": "maieuticallabs.png",
+	"description": "Software House",
+	"links": [
+		{
+			"url": "https://maieuticallabs.it/",
+			"name": "Sito"
+		}
+	]
+}

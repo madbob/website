@@ -1,0 +1,12 @@
+{
+	"type": "open",
+	"name": "Burnia",
+	"image": "burnia.png",
+	"description": "Captcha senza captcha",
+	"links": [
+		{
+			"url": "http://burnia.madbob.org/",
+			"name": "Sito"
+		}
+	]
+}
