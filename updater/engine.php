@@ -81,7 +81,7 @@ foreach($sources as $source) {
 			else
 				$branch = 'master';
 
-			$client = new \Gitlab\Client('https://gitlab.com/api/v3/');
+			$client = new \Gitlab\Client('https://gitlab.com/api/v4/');
 			$client->authenticate($source->auth, \Gitlab\Client::AUTH_URL_TOKEN);
 			$commits = $client->api('repo')->commits($source->identifier);
 

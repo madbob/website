@@ -1,6 +1,7 @@
 {
     "require": {
         "gentle/bitbucket-api": "^0.8.1",
+        "kriswallsmith/buzz": "0.15",
         "knplabs/github-api": "~1.4",
         "m4tthumphrey/php-gitlab-api": "^7.15"
     }
