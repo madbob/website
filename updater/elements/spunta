@@ -1,0 +1,12 @@
+{
+	"type": "open",
+	"name": "Spunta",
+	"image": "spunta.png",
+	"description": "Checklist manager",
+	"links": [
+		{
+			"url": "https://spunta.madbob.org/",
+			"name": "Sito"
+		}
+	]
+}
