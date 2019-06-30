@@ -540,13 +540,13 @@ button {
   box-shadow: 0 -5px 30px rgba(0, 0, 0, 0.2);
 }
 .cd-project-info .open {
-	border: 5px solid #0F0;
+	border: 1px solid #0F0;
 }
 .cd-project-info .hack {
-	border: 5px solid #00F;
+	border: 1px solid #00F;
 }
 .cd-project-info .work {
-	border: 5px solid #F00;
+	border: 1px solid #F00;
 }
 
 .cd-project-info span.open {
@@ -829,7 +829,7 @@ button {
 	border-right:2px solid #fff;
 	margin:5% auto 0 auto;
 	background-size:cover;
-	border-radius:5px;
+	border-radius:15px;
 	overflow:hidden;
 	background-position: center;
 }
